@@ -1,0 +1,2 @@
+﻿PASS: WPF load, Cyrillic, city buttons, Auto/Manual, settings persistence, custom zone apply, multiple favorites, deduplication, removal without timezone change, close-to-tray, restore, clock rendering.
+Simulated changes: 3. No real timezone or startup changes.

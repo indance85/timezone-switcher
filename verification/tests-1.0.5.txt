@@ -1,0 +1,53 @@
+﻿PASS Favorite migration defaults
+PASS Favorites reject unknown and duplicates
+PASS Empty favorites stay empty
+PASS Country search aliases
+PASS Fractional offset retained
+PASS CLDR Berlin
+PASS CLDR Moscow
+PASS Region within Russia
+PASS Region within USA
+PASS Unknown IANA holds
+PASS Berlin DST winter/summer
+PASS Agreement selects Berlin
+PASS Manual dominates online
+PASS Manual dominates offline
+PASS Offline selects Moscow
+PASS API outage is not offline
+PASS One provider failure holds
+PASS Different timezone holds
+PASS Different exit IP holds
+PASS Different country holds
+PASS Kordon absent holds
+PASS Kordon protection pause does not veto confirmed region
+PASS VPN off: denied home IP selects Moscow after confirmation
+PASS VPN off: manual still dominates
+PASS VPN off: stale Kordon IP still holds
+PASS VPN off: disagreeing providers still hold
+PASS VPN off: split routes still hold
+PASS VPN off: missing geolocation still holds
+PASS Kordon explicit ambiguity still holds
+PASS Malformed Kordon observation still holds
+PASS Split tunnel holds
+PASS TLS uncertainty holds
+PASS Network change invalidates online
+PASS Network change invalidates offline
+PASS IPv6 unconfirmed holds
+PASS IPv6 agreement accepted
+PASS IPv6 different region holds
+PASS Two samples required
+PASS Changed route resets candidate
+PASS Failure breaks consecutive confirmations
+PASS Manual reset breaks stale candidate
+PASS Kordon supported schema
+PASS Kordon missing pause fails closed
+PASS Unknown Kordon version holds
+PASS Geo error JSON fails closed
+PASS Malformed geo fails closed
+PASS Geo timezone field parse
+PASS Actual route structure parsed
+PASS Public route outside VPN holds
+PASS Equal default routes hold
+PASS Two /1 VPN routes accepted
+PASS Missing routes hold
+RESULT: 52 passed, 0 failed. Tests use fixtures; no VPN or system timezone changed.
